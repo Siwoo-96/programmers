@@ -8,10 +8,7 @@ solution 함수를 완성해보세요.
 */
 
 function solution(n, k) {
-    const total = 12000 * n + 2000 * k;
-    const sale = Math.floor(n / 10) * 2000;
-
-    return total - sale;
+    return (12000 * n + 2000 * k) - (2000 * parseInt(n / 10));
 }
 
 
